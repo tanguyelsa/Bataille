@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Bataille</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+<header>
+    <h1>Bataille</h1>
+    <div id="carteRestantes"></div>
+    <button id="bouton" onclick="actionBouton()">Que le jeu commence ...</button>
+</header>
+<div id="affichage_jeu">
+    <div id="joueur_1" class="joueur">
+        <h2>Joueur1</h2>
+        <div id="pts_J1"></div>
+        <img src="" alt="" id="carte1">
+    </div>
+    <div id="joueur_2" class="joueur">
+        <h2>Joueur2</h2>
+        <div id="pts_J2"></div>
+        <img src="" alt="" id="carte2">
+    </div>
+
+</div>
+<div class="joueur">
+    <div id="gagnant"></div>
+    <button id="recommencer" onclick="relancer()">Relancer une partie?</button>
+</div>
+
+</body>
+</html>

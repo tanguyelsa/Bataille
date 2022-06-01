@@ -1,0 +1,43 @@
+#affichage_jeu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#button{
+    width: 500px;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    height: 50px;
+    max-width: 500px;
+    border-radius: 5px;
+    font-size:24px;
+}
+div{
+    font-size:26px;
+    margin:15px;
+}
+
+.joueur{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: xxx-large;
+}
+
+body{
+    background-image: url("images/galaxy.jpg") ;
+    background-size: contain;
+    color: white;
+
+}
+img{
+    box-shadow:5px 5px 20px white;
+}
+
